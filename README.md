@@ -123,6 +123,10 @@ The Mage reads from a shared repertoire the Swordsman writes to:
 
 The communication surface is defined in `shared/types/` — both extensions import the same types to stay in sync.
 
+## The Aether — full shared-substrate spec
+
+For the complete contract between the two extensions — message types, storage keys, crypto key derivation, numeric thresholds, and the conceptual boundaries — see [`AETHER.md`](./AETHER.md). This file is **identical** in the Swordsman and Mage repositories; if the two copies drift, the contract is broken. Keep them in sync.
+
 ---
 
 ## The Σ boundary — the single most important rule
