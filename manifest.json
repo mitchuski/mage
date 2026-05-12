@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Mage — Spellbook Projection",
-  "version": "1.0.0",
-  "description": "The spell that projects sovereignty across distance. Knowledge scanning, constellation mapping, ceremony engine.",
+  "version": "1.2.1",
+  "description": "The spell that projects sovereignty across distance. Knowledge scanning, constellation mapping, ceremony engine. Bundles privacymage's grimoire and the City of Mages grimoire v1.2.2 (Second Person · Tomes IV–V cast · two-tier collapse — archetype + mage · Luca 📐 at V0 · UOR Foundation as kindred substrate · SpaceComputer as kindred ecosystem · Aether ⊥ Celestial two-mana economy).",
   "permissions": [
     "storage",
     "activeTab",
@@ -38,5 +38,14 @@
     "16": "assets/icons/mage-16.svg",
     "48": "assets/icons/mage-48.svg",
     "128": "assets/icons/mage-128.svg"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "privacymage_grimoire_v10_2_0.json",
+        "city_of_mages_grimoire_v1_2_0.json"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }

@@ -4,6 +4,12 @@
 
 The Mage is not a party to the IEEE 7012 agreement. Per §5.4.3, a contract has exactly two named parties: the First Person and the Entity. The Mage is a delegation of the First Person, constrained by what the Swordsman has already agreed to on the First Person's behalf. Its value-add sits on axes the agreement layer does not cover: operational delegation, Γ-awareness (inference posture), and projection across distance.
 
+**Bundled grimoires (v1.1.0+):**
+- `privacymage_grimoire_v10_2_0.json` (v10.2.1 internally) — the privacymage grimoire (First Person + Zero + Canon + Society + Plurality spellbooks)
+- `city_of_mages_grimoire_v1_2_0.json` — the City of Mages grimoire (Second Person · Tomes IV–V cast; **14 personas** the Mage may project (geometry-Mage Luca 📐 added at V0); 42 spells; **UOR Foundation** recognised as kindred substrate provider; **SpaceComputer** recognised as the first kindred ecosystem — celestial-mana 🌌 source feeding Adamantia (Etherchanting), Vulcana (Forge(t)), and Vagari (Holon Hitchhikers); **two-mana economy** canonical: chain-mana (Aether Mana Ξ on Ethereum as canonical first instance; Bitcoin Lightning sats / Oasis ROSE / Zcash etc. admitted under their own symbols) ⊥ Celestial Mana 🌌; setting: the **First City of Mages on Drake Island** within the agentprivacy universe — the title names a kind, so future Mages who found cities elsewhere will each pin their own First City of Mages grimoire under the same title pattern). File content is v1.2.2; v1.2 base pinned 2026-05-10 at `https://sync.agentprivacy.ai/ipfs/bafkreidxhmuykjew6dtnuprggtd2rapwm43ghtmfhf2occ2wfk2zpx2b6a`; v1.2.2 (Luca + SpaceComputer + two-mana economy) awaits a fresh re-pin. v1.1 pin `bafkreidv7c…idti` retained as historical.
+
+Both grimoires bundle at project root and surface as `web_accessible_resources`. Build script copies them to `dist/`. Spell projection filters by spellbook source.
+
 Paired with:
 
 - [mitchuski/swordsman](https://github.com/mitchuski/swordsman) — the agreement-layer agent. The Swordsman signs; the Mage operates inside what was signed.
